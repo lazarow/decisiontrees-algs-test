@@ -113,9 +113,9 @@ for experiment in experiments:
     algorithms = data[experiment["id"]]
     print("| Algorithm | Decision class | Accuracy | Precision | Recall | F1 |")
     print("| --- | --- | --- | --- | --- | --- |")
-    for algorithm in algorithms:
-        for decision_class in labels:
-            decision_class = str(decision_class)
+    for decision_class in labels:
+        decision_class = str(decision_class)
+        for algorithm in algorithms:
             fp = 0; fn = 0; tp = 0; tn = 0
             for (actual, prediction), count  in data[experiment["id"]][algorithm]:
                 if actual == decision_class and prediction == decision_class:
