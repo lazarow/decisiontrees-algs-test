@@ -80,7 +80,7 @@ Precision:  75.5102 %, Recall:  74.7475 %, F1:  75.1269 %
 ...
 ```
 
-### Pre-generated result
+### Pre-generated results
 
 You will find all generated results in two files: `output_full.txt` and `output_test_only.txt`. The former consist a complete procedure, whereas the latter consists validation of test sets only.
 
