@@ -1,0 +1,424 @@
+-------------------------
+Experiment ID: balance-scale
+-------------------------
+Algorithm: ID3
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  77.00534759358288 % on  187  instances
+Labels:  ['L' 'R' 'B']
+Confusion matrix:  [[81, 18, 10], [4, 63, 4], [3, 4, 0]]
+Decision  L  => Accuray:  81.2834 %, Precision:  74.3119 %, Recall:  92.0455 %, F1:  82.2335 %
+Decision  R  => Accuray:  83.9572 %, Precision:  88.7324 %, Recall:  74.1176 %, F1:  80.7692 %
+Decision  B  => Accuray:  88.7701 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"L", "L"} => 81,
+{"R", "R"} => 63,
+{"R", "L"} => 18,
+{"B", "L"} => 10,
+{"B", "R"} => 4,
+{"R", "B"} => 4,
+{"L", "R"} => 4,
+{"L", "B"} => 3,
+{"B", "B"} => 0
+-------------------------
+Algorithm: C4.5
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  71.12299465240642 % on  187  instances
+Labels:  ['L' 'R' 'B']
+Confusion matrix:  [[85, 35, 12], [3, 48, 2], [0, 2, 0]]
+Decision  L  => Accuray:  73.262 %, Precision:  64.3939 %, Recall:  96.5909 %, F1:  77.2727 %
+Decision  R  => Accuray:  77.5401 %, Precision:  90.566 %, Recall:  56.4706 %, F1:  69.5652 %
+Decision  B  => Accuray:  91.4439 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"L", "L"} => 85,
+{"R", "R"} => 48,
+{"R", "L"} => 35,
+{"B", "L"} => 12,
+{"L", "R"} => 3,
+{"B", "R"} => 2,
+{"R", "B"} => 2,
+{"B", "B"} => 0,
+{"L", "B"} => 0
+-------------------------
+Algorithm: CART
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  79.14438502673796 % on  187  instances
+Labels:  ['L' 'R' 'B']
+Confusion matrix:  [[78, 12, 9], [5, 70, 5], [5, 3, 0]]
+Decision  L  => Accuray:  83.4225 %, Precision:  78.7879 %, Recall:  88.6364 %, F1:  83.4225 %
+Decision  R  => Accuray:  86.631 %, Precision:  87.5 %, Recall:  82.3529 %, F1:  84.8485 %
+Decision  B  => Accuray:  88.2353 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"L", "L"} => 78,
+{"R", "R"} => 70,
+{"R", "L"} => 12,
+{"B", "L"} => 9,
+{"B", "R"} => 5,
+{"L", "B"} => 5,
+{"L", "R"} => 5,
+{"R", "B"} => 3,
+{"B", "B"} => 0
+-------------------------
+Algorithm: CHAID
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  73.79679144385027 % on  187  instances
+Labels:  ['L' 'R' 'B']
+Confusion matrix:  [[60, 7, 4], [28, 78, 10], [0, 0, 0]]
+Decision  L  => Accuray:  79.1444 %, Precision:  84.507 %, Recall:  68.1818 %, F1:  75.4717 %
+Decision  R  => Accuray:  75.9358 %, Precision:  67.2414 %, Recall:  91.7647 %, F1:  77.612 %
+Decision  B  => Accuray:  92.5134 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"R", "R"} => 78,
+{"L", "L"} => 60,
+{"L", "R"} => 28,
+{"B", "R"} => 10,
+{"R", "L"} => 7,
+{"B", "L"} => 4,
+{"B", "B"} => 0,
+{"R", "B"} => 0,
+{"L", "B"} => 0
+
+
+-------------------------
+Experiment ID: breast-cancer
+-------------------------
+Algorithm: ID3
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  63.95348837209303 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[50, 16], [15, 5]]
+Precision:  75.7576 %, Recall:  76.9231 %, F1:  76.3359 %
+{"no", "no"} => 50,
+{"yes", "no"} => 16,
+{"no", "yes"} => 15,
+{"yes", "yes"} => 5
+-------------------------
+Algorithm: C4.5
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  72.09302325581395 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[53, 12], [12, 9]]
+Precision:  81.5385 %, Recall:  81.5385 %, F1:  81.5385 %
+{"no", "no"} => 53,
+{"yes", "no"} => 12,
+{"no", "yes"} => 12,
+{"yes", "yes"} => 9
+-------------------------
+Algorithm: CART
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  62.7906976744186 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[48, 15], [17, 6]]
+Precision:  76.1905 %, Recall:  73.8462 %, F1:  75.0 %
+{"no", "no"} => 48,
+{"no", "yes"} => 17,
+{"yes", "no"} => 15,
+{"yes", "yes"} => 6
+-------------------------
+Algorithm: CHAID
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  67.44186046511628 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[52, 15], [13, 6]]
+Precision:  77.6119 %, Recall:  80.0 %, F1:  78.7879 %
+{"no", "no"} => 52,
+{"yes", "no"} => 15,
+{"no", "yes"} => 13,
+{"yes", "yes"} => 6
+
+
+-------------------------
+Experiment ID: car
+-------------------------
+Algorithm: ID3
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  88.996138996139 % on  518  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[344, 10, 4, 0], [18, 95, 4, 4], [0, 3, 11, 7], [1, 1, 5, 11]]
+Decision  unacc  => Accuray:  93.6293 %, Precision:  96.0894 %, Recall:  94.7658 %, F1:  95.423 %
+Decision  acc  => Accuray:  92.278 %, Precision:  78.5124 %, Recall:  87.156 %, F1:  82.6087 %
+Decision  good  => Accuray:  95.5598 %, Precision:  52.381 %, Recall:  45.8333 %, F1:  48.8889 %
+Decision  vgood  => Accuray:  96.5251 %, Precision:  61.1111 %, Recall:  50.0 %, F1:  55.0 %
+{"unacc", "unacc"} => 344,
+{"acc", "acc"} => 95,
+{"unacc", "acc"} => 18,
+{"vgood", "vgood"} => 11,
+{"good", "good"} => 11,
+{"acc", "unacc"} => 10,
+{"vgood", "good"} => 7,
+{"good", "vgood"} => 5,
+{"vgood", "acc"} => 4,
+{"good", "acc"} => 4,
+{"good", "unacc"} => 4,
+{"acc", "good"} => 3,
+{"acc", "vgood"} => 1,
+{"unacc", "vgood"} => 1,
+{"vgood", "unacc"} => 0,
+{"unacc", "good"} => 0
+-------------------------
+Algorithm: C4.5
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  89.96138996138995 % on  518  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[344, 10, 1, 0], [18, 95, 7, 4], [1, 3, 13, 4], [0, 1, 3, 14]]
+Decision  unacc  => Accuray:  94.2085 %, Precision:  96.9014 %, Recall:  94.7658 %, F1:  95.8217 %
+Decision  acc  => Accuray:  91.6988 %, Precision:  76.6129 %, Recall:  87.156 %, F1:  81.5451 %
+Decision  good  => Accuray:  96.332 %, Precision:  61.9048 %, Recall:  54.1667 %, F1:  57.7778 %
+Decision  vgood  => Accuray:  97.6834 %, Precision:  77.7778 %, Recall:  63.6364 %, F1:  70.0 %
+{"unacc", "unacc"} => 344,
+{"acc", "acc"} => 95,
+{"unacc", "acc"} => 18,
+{"vgood", "vgood"} => 14,
+{"good", "good"} => 13,
+{"acc", "unacc"} => 10,
+{"good", "acc"} => 7,
+{"vgood", "acc"} => 4,
+{"vgood", "good"} => 4,
+{"acc", "good"} => 3,
+{"good", "vgood"} => 3,
+{"acc", "vgood"} => 1,
+{"unacc", "good"} => 1,
+{"good", "unacc"} => 1,
+{"vgood", "unacc"} => 0,
+{"unacc", "vgood"} => 0
+-------------------------
+Algorithm: CART
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  88.22393822393822 % on  518  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[343, 12, 4, 0], [19, 93, 5, 4], [0, 3, 10, 7], [1, 1, 5, 11]]
+Decision  unacc  => Accuray:  93.0502 %, Precision:  95.5432 %, Recall:  94.4904 %, F1:  95.0139 %
+Decision  acc  => Accuray:  91.5058 %, Precision:  76.8595 %, Recall:  85.3211 %, F1:  80.8696 %
+Decision  good  => Accuray:  95.3668 %, Precision:  50.0 %, Recall:  41.6667 %, F1:  45.4546 %
+Decision  vgood  => Accuray:  96.5251 %, Precision:  61.1111 %, Recall:  50.0 %, F1:  55.0 %
+{"unacc", "unacc"} => 343,
+{"acc", "acc"} => 93,
+{"unacc", "acc"} => 19,
+{"acc", "unacc"} => 12,
+{"vgood", "vgood"} => 11,
+{"good", "good"} => 10,
+{"vgood", "good"} => 7,
+{"good", "acc"} => 5,
+{"good", "vgood"} => 5,
+{"vgood", "acc"} => 4,
+{"good", "unacc"} => 4,
+{"acc", "good"} => 3,
+{"acc", "vgood"} => 1,
+{"unacc", "vgood"} => 1,
+{"vgood", "unacc"} => 0,
+{"unacc", "good"} => 0
+-------------------------
+Algorithm: CHAID
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  80.88803088803088 % on  518  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[321, 31, 3, 3], [37, 73, 4, 4], [3, 3, 12, 2], [2, 2, 5, 13]]
+Decision  unacc  => Accuray:  84.749 %, Precision:  89.6648 %, Recall:  88.4298 %, F1:  89.043 %
+Decision  acc  => Accuray:  84.3629 %, Precision:  61.8644 %, Recall:  66.9725 %, F1:  64.3172 %
+Decision  good  => Accuray:  96.139 %, Precision:  60.0 %, Recall:  50.0 %, F1:  54.5455 %
+Decision  vgood  => Accuray:  96.5251 %, Precision:  59.0909 %, Recall:  59.0909 %, F1:  59.0909 %
+{"unacc", "unacc"} => 321,
+{"acc", "acc"} => 73,
+{"unacc", "acc"} => 37,
+{"acc", "unacc"} => 31,
+{"vgood", "vgood"} => 13,
+{"good", "good"} => 12,
+{"good", "vgood"} => 5,
+{"vgood", "acc"} => 4,
+{"good", "acc"} => 4,
+{"acc", "good"} => 3,
+{"vgood", "unacc"} => 3,
+{"unacc", "good"} => 3,
+{"good", "unacc"} => 3,
+{"acc", "vgood"} => 2,
+{"vgood", "good"} => 2,
+{"unacc", "vgood"} => 2
+
+
+-------------------------
+Experiment ID: lymphography
+-------------------------
+Algorithm: ID3
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  0.0 % on  44  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.9091 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  63.6364 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  95.4545 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"2", "2"} => 23,
+{"3", "3"} => 14,
+{"2", "3"} => 3,
+{"3", "2"} => 2,
+{"4", "2"} => 2,
+{"1", "1"} => 0,
+{"1", "2"} => 0,
+{"1", "3"} => 0,
+{"1", "4"} => 0,
+{"2", "1"} => 0,
+{"2", "4"} => 0,
+{"3", "1"} => 0,
+{"3", "4"} => 0,
+{"4", "1"} => 0,
+{"4", "3"} => 0,
+{"4", "4"} => 0
+-------------------------
+Algorithm: C4.5
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  0.0 % on  44  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.9091 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  63.6364 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  95.4545 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"2", "2"} => 22,
+{"3", "3"} => 13,
+{"2", "3"} => 4,
+{"3", "2"} => 3,
+{"4", "4"} => 2,
+{"1", "1"} => 0,
+{"1", "2"} => 0,
+{"1", "3"} => 0,
+{"1", "4"} => 0,
+{"2", "1"} => 0,
+{"2", "4"} => 0,
+{"3", "1"} => 0,
+{"3", "4"} => 0,
+{"4", "1"} => 0,
+{"4", "2"} => 0,
+{"4", "3"} => 0
+-------------------------
+Algorithm: CART
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  0.0 % on  44  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.9091 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  63.6364 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  95.4545 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"2", "2"} => 23,
+{"3", "3"} => 14,
+{"2", "3"} => 3,
+{"3", "2"} => 2,
+{"4", "2"} => 2,
+{"1", "1"} => 0,
+{"1", "2"} => 0,
+{"1", "3"} => 0,
+{"1", "4"} => 0,
+{"2", "1"} => 0,
+{"2", "4"} => 0,
+{"3", "1"} => 0,
+{"3", "4"} => 0,
+{"4", "1"} => 0,
+{"4", "3"} => 0,
+{"4", "4"} => 0
+-------------------------
+Algorithm: CHAID
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  0.0 % on  44  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.9091 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  63.6364 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  95.4545 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"2", "2"} => 21,
+{"3", "3"} => 13,
+{"2", "3"} => 4,
+{"3", "2"} => 3,
+{"4", "2"} => 2,
+{"2", "4"} => 1,
+{"1", "1"} => 0,
+{"1", "2"} => 0,
+{"1", "3"} => 0,
+{"1", "4"} => 0,
+{"2", "1"} => 0,
+{"3", "1"} => 0,
+{"3", "4"} => 0,
+{"4", "1"} => 0,
+{"4", "3"} => 0,
+{"4", "4"} => 0
+
+
+-------------------------
+Experiment ID: tic-tac-toe
+-------------------------
+Algorithm: ID3
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  82.92682926829268 % on  287  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[74, 24], [25, 164]]
+Precision:  75.5102 %, Recall:  74.7475 %, F1:  75.1269 %
+{"positive", "positive"} => 164,
+{"negative", "negative"} => 74,
+{"negative", "positive"} => 25,
+{"positive", "negative"} => 24
+-------------------------
+Algorithm: C4.5
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  85.01742160278745 % on  287  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[77, 21], [22, 167]]
+Precision:  78.5714 %, Recall:  77.7778 %, F1:  78.1726 %
+{"positive", "positive"} => 167,
+{"negative", "negative"} => 77,
+{"negative", "positive"} => 22,
+{"positive", "negative"} => 21
+-------------------------
+Algorithm: CART
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  82.92682926829268 % on  287  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[75, 25], [24, 163]]
+Precision:  75.0 %, Recall:  75.7576 %, F1:  75.3769 %
+{"positive", "positive"} => 163,
+{"negative", "negative"} => 75,
+{"positive", "negative"} => 25,
+{"negative", "positive"} => 24
+-------------------------
+Algorithm: CHAID
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  81.18466898954703 % on  287  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[73, 28], [26, 160]]
+Precision:  72.2772 %, Recall:  73.7374 %, F1:  73.0 %
+{"positive", "positive"} => 160,
+{"negative", "negative"} => 73,
+{"positive", "negative"} => 28,
+{"negative", "positive"} => 26
+
+

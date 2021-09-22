@@ -1,0 +1,824 @@
+-------------------------
+Experiment ID: balance-scale
+-------------------------
+Algorithm: ID3
+ID3  tree is going to be built...
+-------------------------
+finished in  1.182084560394287  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  82.4 % on  250  instances
+Labels:  ['R' 'L' 'B']
+Confusion matrix:  [[91, 4, 3], [24, 109, 10], [3, 0, 6]]
+Decision  R  => Accuray:  86.4 %, Precision:  92.8571 %, Recall:  77.1186 %, F1:  84.2592 %
+Decision  L  => Accuray:  84.8 %, Precision:  76.2238 %, Recall:  96.4602 %, F1:  85.1563 %
+Decision  B  => Accuray:  93.6 %, Precision:  66.6667 %, Recall:  31.5789 %, F1:  42.8571 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  73.40425531914893 % on  188  instances
+Labels:  ['R' 'L' 'B']
+Confusion matrix:  [[59, 7, 8], [23, 78, 7], [3, 2, 1]]
+Decision  R  => Accuray:  78.1915 %, Precision:  79.7297 %, Recall:  69.4118 %, F1:  74.2138 %
+Decision  L  => Accuray:  79.2553 %, Precision:  72.2222 %, Recall:  89.6552 %, F1:  80.0 %
+Decision  B  => Accuray:  89.3617 %, Precision:  16.6667 %, Recall:  6.25 %, F1:  9.0909 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  77.00534759358288 % on  187  instances
+Labels:  ['L' 'R' 'B']
+Confusion matrix:  [[81, 18, 10], [4, 63, 4], [3, 4, 0]]
+Decision  L  => Accuray:  81.2834 %, Precision:  74.3119 %, Recall:  92.0455 %, F1:  82.2335 %
+Decision  R  => Accuray:  83.9572 %, Precision:  88.7324 %, Recall:  74.1176 %, F1:  80.7692 %
+Decision  B  => Accuray:  88.7701 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"L", "L"} => 81,
+{"R", "R"} => 63,
+{"R", "L"} => 18,
+{"B", "L"} => 10,
+{"L", "R"} => 4,
+{"B", "R"} => 4,
+{"R", "B"} => 4,
+{"L", "B"} => 3,
+{"B", "B"} => 0
+-------------------------
+Algorithm: C4.5
+C4.5  tree is going to be built...
+-------------------------
+finished in  1.050724983215332  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  73.6 % on  250  instances
+Labels:  ['R' 'L' 'B']
+Confusion matrix:  [[71, 2, 3], [47, 111, 14], [0, 0, 2]]
+Decision  R  => Accuray:  79.2 %, Precision:  93.4211 %, Recall:  60.1695 %, F1:  73.1959 %
+Decision  L  => Accuray:  74.8 %, Precision:  64.5349 %, Recall:  98.2301 %, F1:  77.8948 %
+Decision  B  => Accuray:  93.2 %, Precision:  100.0 %, Recall:  10.5263 %, F1:  19.0476 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  68.08510638297872 % on  188  instances
+Labels:  ['R' 'L' 'B']
+Confusion matrix:  [[44, 3, 4], [38, 83, 11], [3, 1, 1]]
+Decision  R  => Accuray:  74.4681 %, Precision:  86.2745 %, Recall:  51.7647 %, F1:  64.7059 %
+Decision  L  => Accuray:  71.8085 %, Precision:  62.8788 %, Recall:  95.4023 %, F1:  75.7991 %
+Decision  B  => Accuray:  89.8936 %, Precision:  20.0 %, Recall:  6.25 %, F1:  9.5238 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  71.12299465240642 % on  187  instances
+Labels:  ['L' 'R' 'B']
+Confusion matrix:  [[85, 35, 12], [3, 48, 2], [0, 2, 0]]
+Decision  L  => Accuray:  73.262 %, Precision:  64.3939 %, Recall:  96.5909 %, F1:  77.2727 %
+Decision  R  => Accuray:  77.5401 %, Precision:  90.566 %, Recall:  56.4706 %, F1:  69.5652 %
+Decision  B  => Accuray:  91.4439 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"L", "L"} => 85,
+{"R", "R"} => 48,
+{"R", "L"} => 35,
+{"B", "L"} => 12,
+{"L", "R"} => 3,
+{"B", "R"} => 2,
+{"R", "B"} => 2,
+{"L", "B"} => 0,
+{"B", "B"} => 0
+-------------------------
+Algorithm: CART
+CART  tree is going to be built...
+-------------------------
+finished in  0.8619704246520996  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  84.8 % on  250  instances
+Labels:  ['R' 'L' 'B']
+Confusion matrix:  [[101, 7, 4], [14, 105, 9], [3, 1, 6]]
+Decision  R  => Accuray:  88.8 %, Precision:  90.1786 %, Recall:  85.5932 %, F1:  87.8261 %
+Decision  L  => Accuray:  87.6 %, Precision:  82.0312 %, Recall:  92.9204 %, F1:  87.1369 %
+Decision  B  => Accuray:  93.2 %, Precision:  60.0 %, Recall:  31.5789 %, F1:  41.3793 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  75.53191489361703 % on  188  instances
+Labels:  ['R' 'L' 'B']
+Confusion matrix:  [[67, 10, 7], [16, 72, 6], [2, 5, 3]]
+Decision  R  => Accuray:  81.383 %, Precision:  79.7619 %, Recall:  78.8235 %, F1:  79.2899 %
+Decision  L  => Accuray:  80.3191 %, Precision:  76.5957 %, Recall:  82.7586 %, F1:  79.558 %
+Decision  B  => Accuray:  89.3617 %, Precision:  30.0 %, Recall:  18.75 %, F1:  23.0769 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  79.14438502673796 % on  187  instances
+Labels:  ['L' 'R' 'B']
+Confusion matrix:  [[78, 12, 9], [5, 70, 5], [5, 3, 0]]
+Decision  L  => Accuray:  83.4225 %, Precision:  78.7879 %, Recall:  88.6364 %, F1:  83.4225 %
+Decision  R  => Accuray:  86.631 %, Precision:  87.5 %, Recall:  82.3529 %, F1:  84.8485 %
+Decision  B  => Accuray:  88.2353 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"L", "L"} => 78,
+{"R", "R"} => 70,
+{"R", "L"} => 12,
+{"B", "L"} => 9,
+{"L", "B"} => 5,
+{"L", "R"} => 5,
+{"B", "R"} => 5,
+{"R", "B"} => 3,
+{"B", "B"} => 0
+-------------------------
+Algorithm: CHAID
+CHAID  tree is going to be built...
+-------------------------
+finished in  0.7597055435180664  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  78.0 % on  250  instances
+Labels:  ['R' 'L' 'B']
+Confusion matrix:  [[109, 27, 12], [9, 86, 7], [0, 0, 0]]
+Decision  R  => Accuray:  80.8 %, Precision:  73.6486 %, Recall:  92.3729 %, F1:  81.9549 %
+Decision  L  => Accuray:  82.8 %, Precision:  84.3137 %, Recall:  76.1062 %, F1:  80.0 %
+Decision  B  => Accuray:  92.4 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  78.19148936170212 % on  188  instances
+Labels:  ['R' 'L' 'B']
+Confusion matrix:  [[78, 18, 12], [7, 69, 4], [0, 0, 0]]
+Decision  R  => Accuray:  80.3191 %, Precision:  72.2222 %, Recall:  91.7647 %, F1:  80.829 %
+Decision  L  => Accuray:  84.5745 %, Precision:  86.25 %, Recall:  79.3103 %, F1:  82.6347 %
+Decision  B  => Accuray:  91.4894 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  73.79679144385027 % on  187  instances
+Labels:  ['L' 'R' 'B']
+Confusion matrix:  [[60, 7, 4], [28, 78, 10], [0, 0, 0]]
+Decision  L  => Accuray:  79.1444 %, Precision:  84.507 %, Recall:  68.1818 %, F1:  75.4717 %
+Decision  R  => Accuray:  75.9358 %, Precision:  67.2414 %, Recall:  91.7647 %, F1:  77.612 %
+Decision  B  => Accuray:  92.5134 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"R", "R"} => 78,
+{"L", "L"} => 60,
+{"L", "R"} => 28,
+{"B", "R"} => 10,
+{"R", "L"} => 7,
+{"B", "L"} => 4,
+{"L", "B"} => 0,
+{"B", "B"} => 0,
+{"R", "B"} => 0
+
+
+-------------------------
+Experiment ID: breast-cancer
+-------------------------
+Algorithm: ID3
+ID3  tree is going to be built...
+-------------------------
+finished in  2.095737934112549  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  114  instances
+Labels:  ['yes' 'no']
+Confusion matrix:  [[28, 0], [0, 86]]
+Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  69.76744186046511 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[55, 14], [12, 5]]
+Precision:  79.7101 %, Recall:  82.0896 %, F1:  80.8824 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  63.95348837209303 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[50, 16], [15, 5]]
+Precision:  75.7576 %, Recall:  76.9231 %, F1:  76.3359 %
+{"no", "no"} => 50,
+{"yes", "no"} => 16,
+{"no", "yes"} => 15,
+{"yes", "yes"} => 5
+-------------------------
+Algorithm: C4.5
+C4.5  tree is going to be built...
+-------------------------
+finished in  2.3369269371032715  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  114  instances
+Labels:  ['yes' 'no']
+Confusion matrix:  [[28, 0], [0, 86]]
+Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  74.4186046511628 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[58, 13], [9, 6]]
+Precision:  81.6901 %, Recall:  86.5672 %, F1:  84.058 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  72.09302325581395 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[53, 12], [12, 9]]
+Precision:  81.5385 %, Recall:  81.5385 %, F1:  81.5385 %
+{"no", "no"} => 53,
+{"yes", "no"} => 12,
+{"no", "yes"} => 12,
+{"yes", "yes"} => 9
+-------------------------
+Algorithm: CART
+CART  tree is going to be built...
+-------------------------
+finished in  2.0698401927948  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  114  instances
+Labels:  ['yes' 'no']
+Confusion matrix:  [[28, 0], [0, 86]]
+Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  69.76744186046511 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[55, 14], [12, 5]]
+Precision:  79.7101 %, Recall:  82.0896 %, F1:  80.8824 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  62.7906976744186 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[48, 15], [17, 6]]
+Precision:  76.1905 %, Recall:  73.8462 %, F1:  75.0 %
+{"no", "no"} => 48,
+{"no", "yes"} => 17,
+{"yes", "no"} => 15,
+{"yes", "yes"} => 6
+-------------------------
+Algorithm: CHAID
+CHAID  tree is going to be built...
+-------------------------
+finished in  2.3967676162719727  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  114  instances
+Labels:  ['yes' 'no']
+Confusion matrix:  [[28, 0], [0, 86]]
+Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  68.6046511627907 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[51, 11], [16, 8]]
+Precision:  82.2581 %, Recall:  76.1194 %, F1:  79.0698 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  67.44186046511628 % on  86  instances
+Labels:  ['no' 'yes']
+Confusion matrix:  [[52, 15], [13, 6]]
+Precision:  77.6119 %, Recall:  80.0 %, F1:  78.7879 %
+{"no", "no"} => 52,
+{"yes", "no"} => 15,
+{"no", "yes"} => 13,
+{"yes", "yes"} => 6
+
+
+-------------------------
+Experiment ID: car
+-------------------------
+Algorithm: ID3
+ID3  tree is going to be built...
+-------------------------
+finished in  5.189952850341797  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  691  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[478, 0, 0, 0], [0, 158, 0, 0], [0, 0, 28, 0], [0, 0, 0, 27]]
+Decision  unacc  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  acc  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  good  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  vgood  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  91.71483622350674 % on  519  instances
+Labels:  ['acc' 'unacc' 'vgood' 'good']
+Confusion matrix:  [[101, 10, 2, 5], [13, 358, 0, 0], [1, 0, 9, 4], [2, 1, 5, 8]]
+Decision  acc  => Accuray:  93.6416 %, Precision:  85.5932 %, Recall:  86.3248 %, F1:  85.9574 %
+Decision  unacc  => Accuray:  95.3757 %, Precision:  96.496 %, Recall:  97.019 %, F1:  96.7568 %
+Decision  vgood  => Accuray:  97.6879 %, Precision:  64.2857 %, Recall:  56.25 %, F1:  60.0 %
+Decision  good  => Accuray:  96.7245 %, Precision:  50.0 %, Recall:  47.0588 %, F1:  48.4848 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  88.996138996139 % on  518  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[344, 10, 4, 0], [18, 95, 4, 4], [0, 3, 11, 7], [1, 1, 5, 11]]
+Decision  unacc  => Accuray:  93.6293 %, Precision:  96.0894 %, Recall:  94.7658 %, F1:  95.423 %
+Decision  acc  => Accuray:  92.278 %, Precision:  78.5124 %, Recall:  87.156 %, F1:  82.6087 %
+Decision  good  => Accuray:  95.5598 %, Precision:  52.381 %, Recall:  45.8333 %, F1:  48.8889 %
+Decision  vgood  => Accuray:  96.5251 %, Precision:  61.1111 %, Recall:  50.0 %, F1:  55.0 %
+{"unacc", "unacc"} => 344,
+{"acc", "acc"} => 95,
+{"unacc", "acc"} => 18,
+{"vgood", "vgood"} => 11,
+{"good", "good"} => 11,
+{"acc", "unacc"} => 10,
+{"vgood", "good"} => 7,
+{"good", "vgood"} => 5,
+{"vgood", "acc"} => 4,
+{"good", "acc"} => 4,
+{"good", "unacc"} => 4,
+{"acc", "good"} => 3,
+{"acc", "vgood"} => 1,
+{"unacc", "vgood"} => 1,
+{"vgood", "unacc"} => 0,
+{"unacc", "good"} => 0
+-------------------------
+Algorithm: C4.5
+C4.5  tree is going to be built...
+-------------------------
+finished in  4.914832830429077  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  691  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[478, 0, 0, 0], [0, 158, 0, 0], [0, 0, 28, 0], [0, 0, 0, 27]]
+Decision  unacc  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  acc  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  good  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  vgood  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  92.67822736030828 % on  519  instances
+Labels:  ['acc' 'unacc' 'vgood' 'good']
+Confusion matrix:  [[101, 9, 2, 5], [13, 359, 0, 0], [1, 0, 13, 4], [2, 1, 1, 8]]
+Decision  acc  => Accuray:  93.8343 %, Precision:  86.3248 %, Recall:  86.3248 %, F1:  86.3248 %
+Decision  unacc  => Accuray:  95.5684 %, Precision:  96.5054 %, Recall:  97.29 %, F1:  96.8961 %
+Decision  vgood  => Accuray:  98.4586 %, Precision:  72.2222 %, Recall:  81.25 %, F1:  76.4706 %
+Decision  good  => Accuray:  97.4952 %, Precision:  66.6667 %, Recall:  47.0588 %, F1:  55.1724 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  89.96138996138995 % on  518  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[344, 10, 1, 0], [18, 95, 7, 4], [1, 3, 13, 4], [0, 1, 3, 14]]
+Decision  unacc  => Accuray:  94.2085 %, Precision:  96.9014 %, Recall:  94.7658 %, F1:  95.8217 %
+Decision  acc  => Accuray:  91.6988 %, Precision:  76.6129 %, Recall:  87.156 %, F1:  81.5451 %
+Decision  good  => Accuray:  96.332 %, Precision:  61.9048 %, Recall:  54.1667 %, F1:  57.7778 %
+Decision  vgood  => Accuray:  97.6834 %, Precision:  77.7778 %, Recall:  63.6364 %, F1:  70.0 %
+{"unacc", "unacc"} => 344,
+{"acc", "acc"} => 95,
+{"unacc", "acc"} => 18,
+{"vgood", "vgood"} => 14,
+{"good", "good"} => 13,
+{"acc", "unacc"} => 10,
+{"good", "acc"} => 7,
+{"vgood", "good"} => 4,
+{"vgood", "acc"} => 4,
+{"good", "vgood"} => 3,
+{"acc", "good"} => 3,
+{"good", "unacc"} => 1,
+{"acc", "vgood"} => 1,
+{"unacc", "good"} => 1,
+{"vgood", "unacc"} => 0,
+{"unacc", "vgood"} => 0
+-------------------------
+Algorithm: CART
+CART  tree is going to be built...
+-------------------------
+finished in  4.833142042160034  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  691  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[478, 0, 0, 0], [0, 158, 0, 0], [0, 0, 28, 0], [0, 0, 0, 27]]
+Decision  unacc  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  acc  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  good  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  vgood  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  91.52215799614643 % on  519  instances
+Labels:  ['acc' 'unacc' 'vgood' 'good']
+Confusion matrix:  [[101, 11, 2, 5], [13, 357, 0, 0], [1, 0, 9, 4], [2, 1, 5, 8]]
+Decision  acc  => Accuray:  93.4489 %, Precision:  84.8739 %, Recall:  86.3248 %, F1:  85.5932 %
+Decision  unacc  => Accuray:  95.183 %, Precision:  96.4865 %, Recall:  96.748 %, F1:  96.6171 %
+Decision  vgood  => Accuray:  97.6879 %, Precision:  64.2857 %, Recall:  56.25 %, F1:  60.0 %
+Decision  good  => Accuray:  96.7245 %, Precision:  50.0 %, Recall:  47.0588 %, F1:  48.4848 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  88.22393822393822 % on  518  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[343, 12, 4, 0], [19, 93, 5, 4], [0, 3, 10, 7], [1, 1, 5, 11]]
+Decision  unacc  => Accuray:  93.0502 %, Precision:  95.5432 %, Recall:  94.4904 %, F1:  95.0139 %
+Decision  acc  => Accuray:  91.5058 %, Precision:  76.8595 %, Recall:  85.3211 %, F1:  80.8696 %
+Decision  good  => Accuray:  95.3668 %, Precision:  50.0 %, Recall:  41.6667 %, F1:  45.4546 %
+Decision  vgood  => Accuray:  96.5251 %, Precision:  61.1111 %, Recall:  50.0 %, F1:  55.0 %
+{"unacc", "unacc"} => 343,
+{"acc", "acc"} => 93,
+{"unacc", "acc"} => 19,
+{"acc", "unacc"} => 12,
+{"vgood", "vgood"} => 11,
+{"good", "good"} => 10,
+{"vgood", "good"} => 7,
+{"good", "vgood"} => 5,
+{"good", "acc"} => 5,
+{"vgood", "acc"} => 4,
+{"good", "unacc"} => 4,
+{"acc", "good"} => 3,
+{"acc", "vgood"} => 1,
+{"unacc", "vgood"} => 1,
+{"vgood", "unacc"} => 0,
+{"unacc", "good"} => 0
+-------------------------
+Algorithm: CHAID
+CHAID  tree is going to be built...
+-------------------------
+finished in  6.338136196136475  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  691  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[478, 0, 0, 0], [0, 158, 0, 0], [0, 0, 28, 0], [0, 0, 0, 27]]
+Decision  unacc  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  acc  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  good  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+Decision  vgood  => Accuray:  100.0 %, Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  82.46628131021194 % on  519  instances
+Labels:  ['acc' 'unacc' 'vgood' 'good']
+Confusion matrix:  [[77, 26, 3, 5], [36, 334, 4, 2], [2, 5, 9, 2], [2, 4, 0, 8]]
+Decision  acc  => Accuray:  85.7418 %, Precision:  69.3694 %, Recall:  65.812 %, F1:  67.5439 %
+Decision  unacc  => Accuray:  85.1638 %, Precision:  88.8298 %, Recall:  90.5149 %, F1:  89.6644 %
+Decision  vgood  => Accuray:  96.9171 %, Precision:  50.0 %, Recall:  56.25 %, F1:  52.9412 %
+Decision  good  => Accuray:  97.1098 %, Precision:  57.1429 %, Recall:  47.0588 %, F1:  51.6129 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  80.88803088803088 % on  518  instances
+Labels:  ['unacc' 'acc' 'good' 'vgood']
+Confusion matrix:  [[321, 31, 3, 3], [37, 73, 4, 4], [3, 3, 12, 2], [2, 2, 5, 13]]
+Decision  unacc  => Accuray:  84.749 %, Precision:  89.6648 %, Recall:  88.4298 %, F1:  89.043 %
+Decision  acc  => Accuray:  84.3629 %, Precision:  61.8644 %, Recall:  66.9725 %, F1:  64.3172 %
+Decision  good  => Accuray:  96.139 %, Precision:  60.0 %, Recall:  50.0 %, F1:  54.5455 %
+Decision  vgood  => Accuray:  96.5251 %, Precision:  59.0909 %, Recall:  59.0909 %, F1:  59.0909 %
+{"unacc", "unacc"} => 321,
+{"acc", "acc"} => 73,
+{"unacc", "acc"} => 37,
+{"acc", "unacc"} => 31,
+{"vgood", "vgood"} => 13,
+{"good", "good"} => 12,
+{"good", "vgood"} => 5,
+{"vgood", "acc"} => 4,
+{"good", "acc"} => 4,
+{"vgood", "unacc"} => 3,
+{"good", "unacc"} => 3,
+{"acc", "good"} => 3,
+{"unacc", "good"} => 3,
+{"vgood", "good"} => 2,
+{"acc", "vgood"} => 2,
+{"unacc", "vgood"} => 2
+
+
+-------------------------
+Experiment ID: lymphography
+-------------------------
+Algorithm: ID3
+ID3  tree is going to be built...
+-------------------------
+finished in  2.310398817062378  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  0.0 % on  59  instances
+Labels:  [2 3 1 4]
+Confusion matrix:  [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+Decision  2  => Accuray:  52.5424 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  52.5424 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  1  => Accuray:  96.6102 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  98.3051 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  0.0 % on  45  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.0 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  62.2222 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  97.7778 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  0.0 % on  44  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.9091 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  63.6364 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  95.4545 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"2", "2"} => 23,
+{"3", "3"} => 14,
+{"2", "3"} => 3,
+{"3", "2"} => 2,
+{"4", "2"} => 2,
+{"1", "1"} => 0,
+{"1", "2"} => 0,
+{"1", "3"} => 0,
+{"1", "4"} => 0,
+{"2", "1"} => 0,
+{"2", "4"} => 0,
+{"3", "1"} => 0,
+{"3", "4"} => 0,
+{"4", "1"} => 0,
+{"4", "3"} => 0,
+{"4", "4"} => 0
+-------------------------
+Algorithm: C4.5
+C4.5  tree is going to be built...
+-------------------------
+finished in  2.3353354930877686  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  0.0 % on  59  instances
+Labels:  [2 3 1 4]
+Confusion matrix:  [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+Decision  2  => Accuray:  52.5424 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  52.5424 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  1  => Accuray:  96.6102 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  98.3051 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  0.0 % on  45  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.0 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  62.2222 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  97.7778 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  0.0 % on  44  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.9091 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  63.6364 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  95.4545 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"2", "2"} => 22,
+{"3", "3"} => 13,
+{"2", "3"} => 4,
+{"3", "2"} => 3,
+{"4", "4"} => 2,
+{"1", "1"} => 0,
+{"1", "2"} => 0,
+{"1", "3"} => 0,
+{"1", "4"} => 0,
+{"2", "1"} => 0,
+{"2", "4"} => 0,
+{"3", "1"} => 0,
+{"3", "4"} => 0,
+{"4", "1"} => 0,
+{"4", "2"} => 0,
+{"4", "3"} => 0
+-------------------------
+Algorithm: CART
+CART  tree is going to be built...
+-------------------------
+finished in  1.810549020767212  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  0.0 % on  59  instances
+Labels:  [2 3 1 4]
+Confusion matrix:  [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+Decision  2  => Accuray:  52.5424 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  52.5424 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  1  => Accuray:  96.6102 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  98.3051 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  0.0 % on  45  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.0 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  62.2222 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  97.7778 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  0.0 % on  44  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.9091 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  63.6364 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  95.4545 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"2", "2"} => 23,
+{"3", "3"} => 14,
+{"2", "3"} => 3,
+{"3", "2"} => 2,
+{"4", "2"} => 2,
+{"1", "1"} => 0,
+{"1", "2"} => 0,
+{"1", "3"} => 0,
+{"1", "4"} => 0,
+{"2", "1"} => 0,
+{"2", "4"} => 0,
+{"3", "1"} => 0,
+{"3", "4"} => 0,
+{"4", "1"} => 0,
+{"4", "3"} => 0,
+{"4", "4"} => 0
+-------------------------
+Algorithm: CHAID
+CHAID  tree is going to be built...
+-------------------------
+finished in  2.433546543121338  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  0.0 % on  59  instances
+Labels:  [2 3 1 4]
+Confusion matrix:  [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+Decision  2  => Accuray:  52.5424 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  52.5424 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  1  => Accuray:  96.6102 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  98.3051 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  0.0 % on  45  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.0 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  62.2222 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  97.7778 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  0.0 % on  44  instances
+Labels:  [2 3 4]
+Confusion matrix:  [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+Decision  2  => Accuray:  40.9091 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  3  => Accuray:  63.6364 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+Decision  4  => Accuray:  95.4545 %, Precision:  0.0 %, Recall:  0.0 %, F1:  0.0 %
+{"2", "2"} => 21,
+{"3", "3"} => 13,
+{"2", "3"} => 4,
+{"3", "2"} => 3,
+{"4", "2"} => 2,
+{"2", "4"} => 1,
+{"1", "1"} => 0,
+{"1", "2"} => 0,
+{"1", "3"} => 0,
+{"1", "4"} => 0,
+{"2", "1"} => 0,
+{"3", "1"} => 0,
+{"3", "4"} => 0,
+{"4", "1"} => 0,
+{"4", "3"} => 0,
+{"4", "4"} => 0
+
+
+-------------------------
+Experiment ID: tic-tac-toe
+-------------------------
+Algorithm: ID3
+ID3  tree is going to be built...
+-------------------------
+finished in  4.203218221664429  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  383  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[139, 0], [0, 244]]
+Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  84.02777777777777 % on  288  instances
+Labels:  ['positive' 'negative']
+Confusion matrix:  [[174, 26], [20, 68]]
+Precision:  87.0 %, Recall:  89.6907 %, F1:  88.3249 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  82.92682926829268 % on  287  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[74, 24], [25, 164]]
+Precision:  75.5102 %, Recall:  74.7475 %, F1:  75.1269 %
+{"positive", "positive"} => 164,
+{"negative", "negative"} => 74,
+{"negative", "positive"} => 25,
+{"positive", "negative"} => 24
+-------------------------
+Algorithm: C4.5
+C4.5  tree is going to be built...
+-------------------------
+finished in  4.122902154922485  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  383  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[139, 0], [0, 244]]
+Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  84.72222222222223 % on  288  instances
+Labels:  ['positive' 'negative']
+Confusion matrix:  [[172, 22], [22, 72]]
+Precision:  88.6598 %, Recall:  88.6598 %, F1:  88.6598 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  85.01742160278745 % on  287  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[77, 21], [22, 167]]
+Precision:  78.5714 %, Recall:  77.7778 %, F1:  78.1726 %
+{"positive", "positive"} => 167,
+{"negative", "negative"} => 77,
+{"negative", "positive"} => 22,
+{"positive", "negative"} => 21
+-------------------------
+Algorithm: CART
+CART  tree is going to be built...
+-------------------------
+finished in  3.744126558303833  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  383  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[139, 0], [0, 244]]
+Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  83.33333333333333 % on  288  instances
+Labels:  ['positive' 'negative']
+Confusion matrix:  [[174, 28], [20, 66]]
+Precision:  86.1386 %, Recall:  89.6907 %, F1:  87.8788 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  82.92682926829268 % on  287  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[75, 25], [24, 163]]
+Precision:  75.0 %, Recall:  75.7576 %, F1:  75.3769 %
+{"positive", "positive"} => 163,
+{"negative", "negative"} => 75,
+{"positive", "negative"} => 25,
+{"negative", "positive"} => 24
+-------------------------
+Algorithm: CHAID
+CHAID  tree is going to be built...
+-------------------------
+finished in  4.579463005065918  seconds
+-------------------------
+Evaluate  train set
+-------------------------
+Accuracy:  100.0 % on  383  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[139, 0], [0, 244]]
+Precision:  100.0 %, Recall:  100.0 %, F1:  100.0 %
+-------------------------
+Evaluate  validation set
+-------------------------
+Accuracy:  77.43055555555556 % on  288  instances
+Labels:  ['positive' 'negative']
+Confusion matrix:  [[165, 36], [29, 58]]
+Precision:  82.0896 %, Recall:  85.0515 %, F1:  83.5443 %
+-------------------------
+Evaluate  test set
+-------------------------
+Accuracy:  81.18466898954703 % on  287  instances
+Labels:  ['negative' 'positive']
+Confusion matrix:  [[73, 28], [26, 160]]
+Precision:  72.2772 %, Recall:  73.7374 %, F1:  73.0 %
+{"positive", "positive"} => 160,
+{"negative", "negative"} => 73,
+{"positive", "negative"} => 28,
+{"negative", "positive"} => 26
+
+
