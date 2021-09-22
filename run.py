@@ -137,14 +137,3 @@ for experiment in experiments:
             print(precision,"% | ", end='')
             print(recall,"% | ", end='')
             print(f1_score,"% |")
-        
-
-'''
-
-    
-    
-    for decision_class in labels:
-        
-        #if len(labels) < 3:
-        #    break
-'''
