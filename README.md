@@ -2,6 +2,8 @@
 
 ## Introduction
 
+Building a decision tree with the following algorithms: ID3, C4.5, CART, and CHAID; based on the provided datasets (see the `datasets` folder).
+
 ## How to run the code?
 
 ### Step 0
